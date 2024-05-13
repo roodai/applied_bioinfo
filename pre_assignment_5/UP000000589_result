@@ -1,0 +1,642 @@
+BLASTP 2.15.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_proteome_UP000000589_2024_04_17.fasta
+           54,910 sequences; 23,260,545 total letters
+
+
+
+Query= sp|A1A519|F170A_HUMAN Protein FAM170A OS=Homo sapiens OX=9606
+GN=FAM170A PE=2 SV=1
+
+Length=330
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+tr|A0A494BAQ9|A0A494BAQ9_MOUSE Family with sequence similarity 17...  407     4e-142
+sp|Q66LM6|F170A_MOUSE Protein FAM170A OS=Mus musculus OX=10090 GN...  404     8e-142
+sp|E9PXT9|F170B_MOUSE Protein FAM170B OS=Mus musculus OX=10090 GN...  91.3    3e-20 
+sp|Q4FZF2|SPT46_MOUSE Spermatogenesis-associated protein 46 OS=Mu...  58.9    5e-10 
+tr|A0A494BAJ2|A0A494BAJ2_MOUSE Family with sequence similarity 17...  47.8    2e-07 
+tr|S4R2I9|S4R2I9_MOUSE Zinc finger protein 532 OS=Mus musculus OX...  33.9    0.26  
+sp|Q9JJN2|ZFHX4_MOUSE Zinc finger homeobox protein 4 OS=Mus muscu...  33.9    0.32  
+sp|Q2MHN3|ZFHX2_MOUSE Zinc finger homeobox protein 2 OS=Mus muscu...  31.6    1.5   
+tr|H3BLK8|H3BLK8_MOUSE Zinc finger homeodomain 4 OS=Mus musculus ...  31.2    2.1   
+tr|E9Q5A7|E9Q5A7_MOUSE Zinc finger homeodomain 4 OS=Mus musculus ...  31.2    2.1   
+tr|G3UVV3|G3UVV3_MOUSE Zinc finger protein 407 OS=Mus musculus OX...  31.2    2.2   
+sp|Q6PAT0|ADAT3_MOUSE Probable inactive tRNA-specific adenosine d...  30.4    2.8   
+sp|Q9QXT9|Z354B_MOUSE Zinc finger protein 354B OS=Mus musculus OX...  30.0    3.7   
+sp|Q9D2D7|ZN687_MOUSE Zinc finger protein 687 OS=Mus musculus OX=...  30.4    3.8   
+tr|G3UZ13|G3UZ13_MOUSE MDS1 and EVI1 complex locus OS=Mus musculu...  30.0    4.3   
+tr|Q3US60|Q3US60_MOUSE cDNA sequence BC025920 OS=Mus musculus OX=...  28.9    4.6   
+tr|A0A0R4J124|A0A0R4J124_MOUSE non-specific serine/threonine prot...  30.0    4.6   
+sp|O54781|SRPK2_MOUSE SRSF protein kinase 2 OS=Mus musculus OX=10...  30.0    4.7   
+tr|G3UYY9|G3UYY9_MOUSE MDS1 and EVI1 complex locus (Fragment) OS=...  29.6    4.9   
+sp|P14404|MECOM_MOUSE Histone-lysine N-methyltransferase MECOM OS...  29.6    5.5   
+tr|G3UZT5|G3UZT5_MOUSE MDS1 and EVI1 complex locus OS=Mus musculu...  29.6    5.6   
+tr|G3UWJ0|G3UWJ0_MOUSE MDS1 and EVI1 complex locus (Fragment) OS=...  29.6    5.7   
+tr|O35700|O35700_MOUSE Evi1delta 105 OS=Mus musculus OX=10090 GN=...  29.6    5.8   
+tr|A0A1L1SRM4|A0A1L1SRM4_MOUSE PR domain zinc finger protein 10 O...  29.6    6.5   
+sp|Q3UTQ7|PRD10_MOUSE PR domain zinc finger protein 10 OS=Mus mus...  29.6    6.5   
+tr|A2A934|A2A934_MOUSE PR domain containing 16 OS=Mus musculus OX...  29.6    6.6   
+tr|A0A1L1SS03|A0A1L1SS03_MOUSE PR domain zinc finger protein 10 O...  29.6    6.7   
+tr|A2A930|A2A930_MOUSE PR domain containing 16 OS=Mus musculus OX...  29.3    7.0   
+sp|A2A935|PRD16_MOUSE Histone-lysine N-methyltransferase PRDM16 O...  29.3    7.1   
+tr|A2A931|A2A931_MOUSE PR domain containing 16 OS=Mus musculus OX...  29.3    7.2   
+tr|A2A933|A2A933_MOUSE PR domain containing 16 OS=Mus musculus OX...  29.3    7.2   
+tr|Q8CCA6|Q8CCA6_MOUSE MDS1 and EVI1 complex locus OS=Mus musculu...  29.3    7.3   
+sp|G5E869|ZN142_MOUSE Zinc finger protein 142 OS=Mus musculus OX=...  29.3    8.5   
+tr|D3YYD1|D3YYD1_MOUSE PR domain zinc finger protein 10 OS=Mus mu...  29.3    8.7   
+tr|A0A1L1STM6|A0A1L1STM6_MOUSE Zinc finger protein 651 (Fragment)...  28.9    9.9   
+
+
+>tr|A0A494BAQ9|A0A494BAQ9_MOUSE Family with sequence similarity 
+170, member A OS=Mus musculus OX=10090 GN=Fam170a PE=1 SV=1
+Length=370
+
+ Score = 407 bits (1045),  Expect = 4e-142, Method: Compositional matrix adjust.
+ Identities = 233/332 (70%), Positives = 265/332 (80%), Gaps = 11/332 (3%)
+
+Query  1    MKRRQKRKHLENEESQETAEKGGGMSKSQEDALQPGSTRVAKGWSQGVGEVTSTSEYCSC  60
+            MKRRQKRKHLE EES+E      G+SKSQED   P ST V K  S GVGEV+S SEY SC
+Sbjct  1    MKRRQKRKHLEIEESKE-----AGISKSQEDISHPESTGVPKAQSPGVGEVSSASEYFSC  55
+
+Query  61   VSSSRKLIH--SGIQRIHRDSPQPQSPLAQVQERGETPPRSQHVSLSSYSSYKTCVSSLC  118
+            VSS +KLIH   G  ++ +DS +P+SPL QV E   T   SQ  S SS  SYKTCVSSLC
+Sbjct  56   VSSPQKLIHRSKGTWKLLQDSSKPRSPLDQVPEGEATTAPSQQAS-SSCPSYKTCVSSLC  114
+
+Query  119  VNKEERGMKIYYMQVQMNKGVAVSWETEETLESLEKQPRMEEVTLSEVVRVGTPPSDVST  178
+            +NKEERGMKIYYMQVQM KGVA+SW+T+ET ESLEKQPRMEE TL E V VGTPPSDVST
+Sbjct  115  MNKEERGMKIYYMQVQMKKGVAISWDTKETSESLEKQPRMEEATLPEGVWVGTPPSDVST  174
+
+Query  179  RNLLSDSEPSGEEKEHEERTESDSLPGSPTVEDTPRAKTPDWLVTMENGFRCMACCRVFT  238
+            RNLLSDSEP GEEKEHEE+ ESDS PGSP VE+ PRAKTPDWLVTMENGFRCMACCRVF 
+Sbjct  175  RNLLSDSEPIGEEKEHEEKPESDSPPGSPAVEERPRAKTPDWLVTMENGFRCMACCRVFA  234
+
+Query  239  TMEALQEHVQFGIREGFSCHVFHLTMAQLTGNMESESTQDEQEEENGNEKEEEEKPEAKE  298
+            TME+LQEHVQ+GIREGFSCHVFHLTMAQL G+MESESTQ+E+E+     ++ +E+   ++
+Sbjct  235  TMESLQEHVQYGIREGFSCHVFHLTMAQLIGSMESESTQEEEEDHTEETEKPKEEKAEEQ  294
+
+Query  299  EEGQPTEEDLGLRRSWSQCPGCVFHSPKDRNS  330
+               QPTEED+G+++ WSQCPGCVF SPKDR +
+Sbjct  295  ---QPTEEDVGMKKPWSQCPGCVFDSPKDRTT  323
+
+
+>sp|Q66LM6|F170A_MOUSE Protein FAM170A OS=Mus musculus OX=10090 
+GN=Fam170a PE=1 SV=1
+Length=333
+
+ Score = 404 bits (1039),  Expect = 8e-142, Method: Compositional matrix adjust.
+ Identities = 233/330 (71%), Positives = 264/330 (80%), Gaps = 11/330 (3%)
+
+Query  1    MKRRQKRKHLENEESQETAEKGGGMSKSQEDALQPGSTRVAKGWSQGVGEVTSTSEYCSC  60
+            MKRRQKRKHLE EES+E      G+SKSQED   P ST V K  S GVGEV+S SEY SC
+Sbjct  1    MKRRQKRKHLEIEESKE-----AGISKSQEDISHPESTGVPKAQSPGVGEVSSASEYFSC  55
+
+Query  61   VSSSRKLIH--SGIQRIHRDSPQPQSPLAQVQERGETPPRSQHVSLSSYSSYKTCVSSLC  118
+            VSS +KLIH   G  ++ +DS +P+SPL QV E   T   SQ  S SS  SYKTCVSSLC
+Sbjct  56   VSSPQKLIHRSKGTWKLLQDSSKPRSPLDQVPEGEATTAPSQQAS-SSCPSYKTCVSSLC  114
+
+Query  119  VNKEERGMKIYYMQVQMNKGVAVSWETEETLESLEKQPRMEEVTLSEVVRVGTPPSDVST  178
+            +NKEERGMKIYYMQVQM KGVA+SW+T+ET ESLEKQPRMEE TL E V VGTPPSDVST
+Sbjct  115  MNKEERGMKIYYMQVQMKKGVAISWDTKETSESLEKQPRMEEATLPEGVWVGTPPSDVST  174
+
+Query  179  RNLLSDSEPSGEEKEHEERTESDSLPGSPTVEDTPRAKTPDWLVTMENGFRCMACCRVFT  238
+            RNLLSDSEP GEEKEHEE+ ESDS PGSP VE+ PRAKTPDWLVTMENGFRCMACCRVF 
+Sbjct  175  RNLLSDSEPIGEEKEHEEKPESDSPPGSPAVEERPRAKTPDWLVTMENGFRCMACCRVFA  234
+
+Query  239  TMEALQEHVQFGIREGFSCHVFHLTMAQLTGNMESESTQDEQEEENGNEKEEEEKPEAKE  298
+            TME+LQEHVQ+GIREGFSCHVFHLTMAQL G+MESESTQ+E+E+     ++ +E+   ++
+Sbjct  235  TMESLQEHVQYGIREGFSCHVFHLTMAQLIGSMESESTQEEEEDHTEETEKPKEEKAEEQ  294
+
+Query  299  EEGQPTEEDLGLRRSWSQCPGCVFHSPKDR  328
+               QPTEED+G+++ WSQCPGCVF SPKDR
+Sbjct  295  ---QPTEEDVGMKKPWSQCPGCVFDSPKDR  321
+
+
+>sp|E9PXT9|F170B_MOUSE Protein FAM170B OS=Mus musculus OX=10090 
+GN=Fam170b PE=1 SV=1
+Length=378
+
+ Score = 91.3 bits (225),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 54/161 (34%), Positives = 91/161 (57%), Gaps = 13/161 (8%)
+
+Query  130  YMQVQMNKGVAVSWETEETLESLEKQPRMEEVTLSEVVRVGTPPSDVSTRNLLSDSEPSG  189
+            Y  VQ  +GVAV+WET++  E + ++P + E    +  R        S+  + S+++   
+Sbjct  111  YTHVQTVRGVAVAWETDDGFEPVTRKPLIREAEFIKRQR-----RKGSSFEMASNTDLRW  165
+
+Query  190  EEKEHEERTESDSLPGSPTVEDTPRAKTPDWLVTMENGFRCMACCRVFTTMEALQEHVQF  249
+            E ++ +        P    +++  RA  PDWLVT  +G RC+ACCRVF T+EAL +H Q 
+Sbjct  166  ELEDCKHYCPQTEDPVDCCMQEL-RAP-PDWLVTTNHGLRCVACCRVFPTLEALLDHAQH  223
+
+Query  250  GIREGFSCHVFHLTMAQLTGNMESESTQDEQEEENGNEKEE  290
+            GI++GFSC +F   M      +E + T+D+++++   E+E+
+Sbjct  224  GIQDGFSCQIFFEEM------LERKRTRDQKQDQQPVEEEQ  258
+
+
+>sp|Q4FZF2|SPT46_MOUSE Spermatogenesis-associated protein 46 OS=Mus 
+musculus OX=10090 GN=Spata46 PE=2 SV=1
+Length=204
+
+ Score = 58.9 bits (141),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 21/59 (36%), Positives = 37/59 (63%), Gaps = 0/59 (0%)
+
+Query  220  WLVTMENGFRCMACCRVFTTMEALQEHVQFGIREGFSCHVFHLTMAQLTGNMESESTQD  278
+            W    +NG++C +CCR++ T+ +L+ H++ G +EGFSC V++  +  L G  +   T D
+Sbjct  135  WHPAQQNGYKCASCCRMYPTLHSLKSHIKGGFKEGFSCKVYYRKLKTLWGKEQKARTGD  193
+
+
+>tr|A0A494BAJ2|A0A494BAJ2_MOUSE Family with sequence similarity 
+170, member A OS=Mus musculus OX=10090 GN=Fam170a PE=1 SV=1
+Length=57
+
+ Score = 47.8 bits (112),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 29/47 (62%), Positives = 31/47 (66%), Gaps = 5/47 (11%)
+
+Query  1   MKRRQKRKHLENEESQETAEKGGGMSKSQEDALQPGSTRVAKGWSQG  47
+           MKRRQKRKHLE EES+E      G+SKSQED   P ST V K  S G
+Sbjct  1   MKRRQKRKHLEIEESKE-----AGISKSQEDISHPESTGVPKAQSPG  42
+
+
+>tr|S4R2I9|S4R2I9_MOUSE Zinc finger protein 532 OS=Mus musculus 
+OX=10090 GN=Zfp532 PE=1 SV=1
+Length=1304
+
+ Score = 33.9 bits (76),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 21/35 (60%), Gaps = 5/35 (14%)
+
+Query  227  GFRCMACCRVFTTMEALQEHVQFGIREGFSCHVFH  261
+            GFRC+ C  V++ + AL+ H+Q     G  C VF+
+Sbjct  838  GFRCVHCNVVYSDVAALKSHIQ-----GSHCEVFY  867
+
+
+>sp|Q9JJN2|ZFHX4_MOUSE Zinc finger homeobox protein 4 OS=Mus musculus 
+OX=10090 GN=Zfhx4 PE=1 SV=1
+Length=3550
+
+ Score = 33.9 bits (76),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 29/89 (33%), Positives = 43/89 (48%), Gaps = 8/89 (9%)
+
+Query  230   CMACCRVFTTMEALQEHVQFGIREGFSCHVFHLTMA-QLTGNMESES---TQD----EQE  281
+             C  C R F T +AL++H++ G  E     +  L  +  + G + +ES   TQD    +QE
+Sbjct  1398  CTLCQRSFRTFQALKKHLEAGHPELSEAELQQLYASLPMNGELWAESETMTQDDHGIDQE  1457
+
+Query  282   EENGNEKEEEEKPEAKEEEGQPTEEDLGL  310
+              E   E + E K    E +G    +DLGL
+Sbjct  1458  MEREYEVDHEGKASPVESDGSSIPDDLGL  1486
+
+
+>sp|Q2MHN3|ZFHX2_MOUSE Zinc finger homeobox protein 2 OS=Mus musculus 
+OX=10090 GN=Zfhx2 PE=1 SV=1
+Length=2562
+
+ Score = 31.6 bits (70),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 19/55 (35%), Positives = 27/55 (49%), Gaps = 13/55 (24%)
+
+Query  198  TESDSLPGSPTVEDTPRAKTPDWLVTMENGFRCMACCRVFTT--MEALQEHVQFG  250
+            + SD LP SP+ +D+P  K           FRC+  C+ F+T  +E L  H   G
+Sbjct  693  SSSDGLPTSPSPDDSPALKV----------FRCLV-CQAFSTDSLELLLYHCSIG  736
+
+
+>tr|H3BLK8|H3BLK8_MOUSE Zinc finger homeodomain 4 OS=Mus musculus 
+OX=10090 GN=Zfhx4 PE=1 SV=1
+Length=3606
+
+ Score = 31.2 bits (69),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 28/89 (31%), Positives = 42/89 (47%), Gaps = 8/89 (9%)
+
+Query  230   CMACCRVFTTMEALQEHVQFGIREGFSCHVFHLTMA-QLTGNMESES---TQD----EQE  281
+             C  C R F T +AL++H++ G  E     +  L  +  + G + +ES   TQD    +QE
+Sbjct  1423  CTLCQRSFRTFQALKKHLEAGHPELSEAELQQLYASLPMNGELWAESETMTQDDHGIDQE  1482
+
+Query  282   EENGNEKEEEEKPEAKEEEGQPTEEDLGL  310
+              E   E + E K    E +     +DLGL
+Sbjct  1483  MEREYEVDHEGKASPVESDSSSIPDDLGL  1511
+
+
+>tr|E9Q5A7|E9Q5A7_MOUSE Zinc finger homeodomain 4 OS=Mus musculus 
+OX=10090 GN=Zfhx4 PE=1 SV=1
+Length=3581
+
+ Score = 31.2 bits (69),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 28/89 (31%), Positives = 42/89 (47%), Gaps = 8/89 (9%)
+
+Query  230   CMACCRVFTTMEALQEHVQFGIREGFSCHVFHLTMA-QLTGNMESES---TQD----EQE  281
+             C  C R F T +AL++H++ G  E     +  L  +  + G + +ES   TQD    +QE
+Sbjct  1398  CTLCQRSFRTFQALKKHLEAGHPELSEAELQQLYASLPMNGELWAESETMTQDDHGIDQE  1457
+
+Query  282   EENGNEKEEEEKPEAKEEEGQPTEEDLGL  310
+              E   E + E K    E +     +DLGL
+Sbjct  1458  MEREYEVDHEGKASPVESDSSSIPDDLGL  1486
+
+
+>tr|G3UVV3|G3UVV3_MOUSE Zinc finger protein 407 OS=Mus musculus 
+OX=10090 GN=Zfp407 PE=1 SV=1
+Length=2246
+
+ Score = 31.2 bits (69),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 15/42 (36%), Positives = 23/42 (55%), Gaps = 3/42 (7%)
+
+Query  223  TMENGFRCMACCRVFTTMEALQEHVQFGIREG---FSCHVFH  261
+            ++E G RC  C   F++  AL++HV+  + EG     CH  H
+Sbjct  173  SVETGLRCGVCGCSFSSCSALEKHVECHVEEGKERTCCHCSH  214
+
+
+>sp|Q6PAT0|ADAT3_MOUSE Probable inactive tRNA-specific adenosine 
+deaminase-like protein 3 OS=Mus musculus OX=10090 GN=Adat3 
+PE=1 SV=1
+Length=349
+
+ Score = 30.4 bits (67),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 25/83 (30%), Positives = 37/83 (45%), Gaps = 14/83 (17%)
+
+Query  7    RKHLENEESQETAEKG---GGMSKSQEDALQPGSTRVAKGWSQGVGEVTSTSEYCSCVSS  63
+            R H     +Q TA +G   G + K  ED+L      V  G+     ++  T E   CV  
+Sbjct  244  RSHPACSFTQATATQGARAGSVRKLDEDSL----PYVCTGY-----DLYVTRE--PCVMC  292
+
+Query  64   SRKLIHSGIQRIHRDSPQPQSPL  86
+            +  L+H+ IQR+   +P P   L
+Sbjct  293  AMALVHARIQRVFYGAPSPDGAL  315
+
+
+>sp|Q9QXT9|Z354B_MOUSE Zinc finger protein 354B OS=Mus musculus 
+OX=10090 GN=Znf354b PE=2 SV=1
+Length=601
+
+ Score = 30.0 bits (66),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 28/113 (25%), Positives = 56/113 (50%), Gaps = 23/113 (20%)
+
+Query  142  SWETEETLESLEKQPRMEEVTLSEVVRVGTPPSDVSTRNLLSDSEPS------GEEKEHE  195
+            S+ T++T ESLE    +  +  ++++ +     D S +N      PS      G++K   
+Sbjct  131  SFRTQDTNESLE----IISINHTKILTI-----DKSRKNF--KFGPSVGLKSIGKQKIAG  179
+
+Query  196  ERTESDSLPGSPTVEDTPRAKTPDWLVTMENGFRCMACCRVFTTMEALQEHVQ  248
+            E+T+ +SL  + T+   P+ KT      +E  ++C  C + F    +L++H++
+Sbjct  180  EKTQRNSLEENSTLLSQPKLKT------VEKRYKCSTCEKAFIHNSSLRKHLK  226
+
+
+>sp|Q9D2D7|ZN687_MOUSE Zinc finger protein 687 OS=Mus musculus 
+OX=10090 GN=Znf687 PE=1 SV=1
+Length=1237
+
+ Score = 30.4 bits (67),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 12/35 (34%), Positives = 19/35 (54%), Gaps = 5/35 (14%)
+
+Query  227  GFRCMACCRVFTTMEALQEHVQFGIREGFSCHVFH  261
+            G+RC +C  VF  + +++ H+Q        C VFH
+Sbjct  763  GYRCPSCAVVFGGVNSIKSHIQ-----ASHCEVFH  792
+
+
+>tr|G3UZ13|G3UZ13_MOUSE MDS1 and EVI1 complex locus OS=Mus musculus 
+OX=10090 GN=Mecom PE=1 SV=1
+Length=718
+
+ Score = 30.0 bits (66),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 21/66 (32%), Positives = 31/66 (47%), Gaps = 7/66 (11%)
+
+Query  223  TMENGFRCMACCRVFTTMEALQEHVQ--FGIREGFSCHVFHLTMAQLTGNMESESTQDEQ  280
+            T E  +RC  C R F+    LQ HV+      + F CH+      Q T N++    +  +
+Sbjct  423  TGEQPYRCKYCDRSFSISSNLQRHVRNIHNKEKPFKCHLCDRCFGQQT-NLD----RHLK  477
+
+Query  281  EEENGN  286
+            + ENGN
+Sbjct  478  KHENGN  483
+
+
+>tr|Q3US60|Q3US60_MOUSE cDNA sequence BC025920 OS=Mus musculus 
+OX=10090 GN=BC025920 PE=2 SV=1
+Length=128
+
+ Score = 28.9 bits (63),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 18/29 (62%), Gaps = 0/29 (0%)
+
+Query  225  ENGFRCMACCRVFTTMEALQEHVQFGIRE  253
+            E  +RC  C + FT+  +LQEH++   RE
+Sbjct  33   ERLYRCQQCGKAFTSQSSLQEHIRMHSRE  61
+
+
+>tr|A0A0R4J124|A0A0R4J124_MOUSE non-specific serine/threonine 
+protein kinase OS=Mus musculus OX=10090 GN=Srpk2 PE=1 SV=1
+Length=682
+
+ Score = 30.0 bits (66),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 20/62 (32%), Positives = 30/62 (48%), Gaps = 0/62 (0%)
+
+Query  262  LTMAQLTGNMESESTQDEQEEENGNEKEEEEKPEAKEEEGQPTEEDLGLRRSWSQCPGCV  321
+            L  A L    E E+ +D  E E+  EKE+ EK  A+++E    +E   L  +W + P   
+Sbjct  324  LKAADLEDTTEEETAKDNGEVEDQEEKEDAEKENAEKDEDDVEQELANLDPTWVESPKAN  383
+
+Query  322  FH  323
+             H
+Sbjct  384  GH  385
+
+
+>sp|O54781|SRPK2_MOUSE SRSF protein kinase 2 OS=Mus musculus OX=10090 
+GN=Srpk2 PE=1 SV=2
+Length=681
+
+ Score = 30.0 bits (66),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 20/62 (32%), Positives = 30/62 (48%), Gaps = 0/62 (0%)
+
+Query  262  LTMAQLTGNMESESTQDEQEEENGNEKEEEEKPEAKEEEGQPTEEDLGLRRSWSQCPGCV  321
+            L  A L    E E+ +D  E E+  EKE+ EK  A+++E    +E   L  +W + P   
+Sbjct  323  LKAADLEDTTEEETAKDNGEVEDQEEKEDAEKENAEKDEDDVEQELANLDPTWVESPKAN  382
+
+Query  322  FH  323
+             H
+Sbjct  383  GH  384
+
+
+>tr|G3UYY9|G3UYY9_MOUSE MDS1 and EVI1 complex locus (Fragment) 
+OS=Mus musculus OX=10090 GN=Mecom PE=1 SV=1
+Length=606
+
+ Score = 29.6 bits (65),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 21/66 (32%), Positives = 31/66 (47%), Gaps = 7/66 (11%)
+
+Query  223  TMENGFRCMACCRVFTTMEALQEHVQ--FGIREGFSCHVFHLTMAQLTGNMESESTQDEQ  280
+            T E  +RC  C R F+    LQ HV+      + F CH+      Q T N++    +  +
+Sbjct  413  TGEQPYRCKYCDRSFSISSNLQRHVRNIHNKEKPFKCHLCDRCFGQQT-NLD----RHLK  467
+
+Query  281  EEENGN  286
+            + ENGN
+Sbjct  468  KHENGN  473
+
+
+>sp|P14404|MECOM_MOUSE Histone-lysine N-methyltransferase MECOM 
+OS=Mus musculus OX=10090 GN=Mecom PE=1 SV=2
+Length=1232
+
+ Score = 29.6 bits (65),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 21/66 (32%), Positives = 31/66 (47%), Gaps = 7/66 (11%)
+
+Query  223  TMENGFRCMACCRVFTTMEALQEHVQ--FGIREGFSCHVFHLTMAQLTGNMESESTQDEQ  280
+            T E  +RC  C R F+    LQ HV+      + F CH+      Q T N++    +  +
+Sbjct  937  TGEQPYRCKYCDRSFSISSNLQRHVRNIHNKEKPFKCHLCDRCFGQQT-NLD----RHLK  991
+
+Query  281  EEENGN  286
+            + ENGN
+Sbjct  992  KHENGN  997
+
+
+>tr|G3UZT5|G3UZT5_MOUSE MDS1 and EVI1 complex locus OS=Mus musculus 
+OX=10090 GN=Mecom PE=1 SV=1
+Length=1051
+
+ Score = 29.6 bits (65),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 21/66 (32%), Positives = 31/66 (47%), Gaps = 7/66 (11%)
+
+Query  223  TMENGFRCMACCRVFTTMEALQEHVQ--FGIREGFSCHVFHLTMAQLTGNMESESTQDEQ  280
+            T E  +RC  C R F+    LQ HV+      + F CH+      Q T N++    +  +
+Sbjct  756  TGEQPYRCKYCDRSFSISSNLQRHVRNIHNKEKPFKCHLCDRCFGQQT-NLD----RHLK  810
+
+Query  281  EEENGN  286
+            + ENGN
+Sbjct  811  KHENGN  816
+
+
+>tr|G3UWJ0|G3UWJ0_MOUSE MDS1 and EVI1 complex locus (Fragment) 
+OS=Mus musculus OX=10090 GN=Mecom PE=1 SV=1
+Length=843
+
+ Score = 29.6 bits (65),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 21/66 (32%), Positives = 31/66 (47%), Gaps = 7/66 (11%)
+
+Query  223  TMENGFRCMACCRVFTTMEALQEHVQ--FGIREGFSCHVFHLTMAQLTGNMESESTQDEQ  280
+            T E  +RC  C R F+    LQ HV+      + F CH+      Q T N++    +  +
+Sbjct  548  TGEQPYRCKYCDRSFSISSNLQRHVRNIHNKEKPFKCHLCDRCFGQQT-NLD----RHLK  602
+
+Query  281  EEENGN  286
+            + ENGN
+Sbjct  603  KHENGN  608
+
+
+>tr|O35700|O35700_MOUSE Evi1delta 105 OS=Mus musculus OX=10090 
+GN=Mecom PE=1 SV=1
+Length=949
+
+ Score = 29.6 bits (65),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 21/66 (32%), Positives = 31/66 (47%), Gaps = 7/66 (11%)
+
+Query  223  TMENGFRCMACCRVFTTMEALQEHVQ--FGIREGFSCHVFHLTMAQLTGNMESESTQDEQ  280
+            T E  +RC  C R F+    LQ HV+      + F CH+      Q T N++    +  +
+Sbjct  756  TGEQPYRCKYCDRSFSISSNLQRHVRNIHNKEKPFKCHLCDRCFGQQT-NLD----RHLK  810
+
+Query  281  EEENGN  286
+            + ENGN
+Sbjct  811  KHENGN  816
+
+
+>tr|A0A1L1SRM4|A0A1L1SRM4_MOUSE PR domain zinc finger protein 
+10 OS=Mus musculus OX=10090 GN=Prdm10 PE=1 SV=1
+Length=1115
+
+ Score = 29.6 bits (65),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 16/56 (29%), Positives = 30/56 (54%), Gaps = 6/56 (11%)
+
+Query  228  FRCMACCRVFTTMEALQEHVQFGIREG---FSCHVFH---LTMAQLTGNMESESTQ  277
+            F+C+ C + F   + L +H++F  REG    +C + +   ++ A L  +M+  S Q
+Sbjct  502  FKCLQCGKAFREKDKLDQHLRFHGREGNCPLTCDLCNKGFISSASLESHMKLHSDQ  557
+
+
+>sp|Q3UTQ7|PRD10_MOUSE PR domain zinc finger protein 10 OS=Mus 
+musculus OX=10090 GN=Prdm10 PE=1 SV=2
+Length=1184
+
+ Score = 29.6 bits (65),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 10/27 (37%), Positives = 17/27 (63%), Gaps = 0/27 (0%)
+
+Query  228  FRCMACCRVFTTMEALQEHVQFGIREG  254
+            F+C+ C + F   + L +H++F  REG
+Sbjct  520  FKCLQCGKAFREKDKLDQHLRFHGREG  546
+
+
+>tr|A2A934|A2A934_MOUSE PR domain containing 16 OS=Mus musculus 
+OX=10090 GN=Prdm16 PE=1 SV=1
+Length=1177
+
+ Score = 29.6 bits (65),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 19/61 (31%), Positives = 28/61 (46%), Gaps = 3/61 (5%)
+
+Query  223   TMENGFRCMACCRVFTTMEALQEHVQ--FGIREGFSCHVFHLTMAQLTGNMESESTQDEQ  280
+             T E  +RC  C R F+    LQ HV+      + F CH+ +    Q T N++    + E 
+Sbjct  975   TGEQPYRCKYCDRSFSISSNLQRHVRNIHNKEKPFKCHLCNRCFGQQT-NLDRHLKKHEH  1033
+
+Query  281   E  281
+             E
+Sbjct  1034  E  1034
+
+
+>tr|A0A1L1SS03|A0A1L1SS03_MOUSE PR domain zinc finger protein 
+10 OS=Mus musculus OX=10090 GN=Prdm10 PE=1 SV=1
+Length=1172
+
+ Score = 29.6 bits (65),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 10/27 (37%), Positives = 17/27 (63%), Gaps = 0/27 (0%)
+
+Query  228  FRCMACCRVFTTMEALQEHVQFGIREG  254
+            F+C+ C + F   + L +H++F  REG
+Sbjct  520  FKCLQCGKAFREKDKLDQHLRFHGREG  546
+
+
+>tr|A2A930|A2A930_MOUSE PR domain containing 16 OS=Mus musculus 
+OX=10090 GN=Prdm16 PE=1 SV=1
+Length=1257
+
+ Score = 29.3 bits (64),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 19/61 (31%), Positives = 28/61 (46%), Gaps = 3/61 (5%)
+
+Query  223   TMENGFRCMACCRVFTTMEALQEHVQ--FGIREGFSCHVFHLTMAQLTGNMESESTQDEQ  280
+             T E  +RC  C R F+    LQ HV+      + F CH+ +    Q T N++    + E 
+Sbjct  975   TGEQPYRCKYCDRSFSISSNLQRHVRNIHNKEKPFKCHLCNRCFGQQT-NLDRHLKKHEH  1033
+
+Query  281   E  281
+             E
+Sbjct  1034  E  1034
+
+
+>sp|A2A935|PRD16_MOUSE Histone-lysine N-methyltransferase PRDM16 
+OS=Mus musculus OX=10090 GN=Prdm16 PE=1 SV=1
+Length=1275
+
+ Score = 29.3 bits (64),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 19/61 (31%), Positives = 28/61 (46%), Gaps = 3/61 (5%)
+
+Query  223   TMENGFRCMACCRVFTTMEALQEHVQ--FGIREGFSCHVFHLTMAQLTGNMESESTQDEQ  280
+             T E  +RC  C R F+    LQ HV+      + F CH+ +    Q T N++    + E 
+Sbjct  974   TGEQPYRCKYCDRSFSISSNLQRHVRNIHNKEKPFKCHLCNRCFGQQT-NLDRHLKKHEH  1032
+
+Query  281   E  281
+             E
+Sbjct  1033  E  1033
+
+
+>tr|A2A931|A2A931_MOUSE PR domain containing 16 OS=Mus musculus 
+OX=10090 GN=Prdm16 PE=1 SV=1
+Length=1274
+
+ Score = 29.3 bits (64),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 19/61 (31%), Positives = 28/61 (46%), Gaps = 3/61 (5%)
+
+Query  223   TMENGFRCMACCRVFTTMEALQEHVQ--FGIREGFSCHVFHLTMAQLTGNMESESTQDEQ  280
+             T E  +RC  C R F+    LQ HV+      + F CH+ +    Q T N++    + E 
+Sbjct  973   TGEQPYRCKYCDRSFSISSNLQRHVRNIHNKEKPFKCHLCNRCFGQQT-NLDRHLKKHEH  1031
+
+Query  281   E  281
+             E
+Sbjct  1032  E  1032
+
+
+>tr|A2A933|A2A933_MOUSE PR domain containing 16 OS=Mus musculus 
+OX=10090 GN=Prdm16 PE=1 SV=1
+Length=1276
+
+ Score = 29.3 bits (64),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 19/61 (31%), Positives = 28/61 (46%), Gaps = 3/61 (5%)
+
+Query  223   TMENGFRCMACCRVFTTMEALQEHVQ--FGIREGFSCHVFHLTMAQLTGNMESESTQDEQ  280
+             T E  +RC  C R F+    LQ HV+      + F CH+ +    Q T N++    + E 
+Sbjct  975   TGEQPYRCKYCDRSFSISSNLQRHVRNIHNKEKPFKCHLCNRCFGQQT-NLDRHLKKHEH  1033
+
+Query  281   E  281
+             E
+Sbjct  1034  E  1034
+
+
+>tr|Q8CCA6|Q8CCA6_MOUSE MDS1 and EVI1 complex locus OS=Mus musculus 
+OX=10090 GN=Mecom PE=1 SV=1
+Length=795
+
+ Score = 29.3 bits (64),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 21/66 (32%), Positives = 31/66 (47%), Gaps = 7/66 (11%)
+
+Query  223  TMENGFRCMACCRVFTTMEALQEHVQ--FGIREGFSCHVFHLTMAQLTGNMESESTQDEQ  280
+            T E  +RC  C R F+    LQ HV+      + F CH+      Q T N++    +  +
+Sbjct  500  TGEQPYRCKYCDRSFSISSNLQRHVRNIHNKEKPFKCHLCDRCFGQQT-NLD----RHLK  554
+
+Query  281  EEENGN  286
+            + ENGN
+Sbjct  555  KHENGN  560
+
+
+>sp|G5E869|ZN142_MOUSE Zinc finger protein 142 OS=Mus musculus 
+OX=10090 GN=Znf142 PE=2 SV=1
+Length=1843
+
+ Score = 29.3 bits (64),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 36/143 (25%), Positives = 56/143 (39%), Gaps = 17/143 (12%)
+
+Query  121   KEERGMKIYYMQ---VQMNKGVAVSWETEETLESLEKQPRMEEVTLSEVVRVGTPPSDVS  177
+             K++RG+  + M+   V + K  A+      TL      P++ +   S+      PP   S
+Sbjct  1079  KQQRGLSTHMMKKCPVLLKKNKALPKPVSPTL-----HPQLPDNQASQDAESRKPPPLPS  1133
+
+Query  178   TRNLLSDSE-----PSGEEKEHEERTESDSLPGSPTVEDTPRAKTPDWLVTMENG-FRCM  231
+                LL   +     P G   E    T SD  P SP     P   +  +    E G F C 
+Sbjct  1134  KVELLLPKDAPSDLPGGPGVEEPLPTPSD-FPTSPPENSLPTGTSEKF--HFEQGKFHCS  1190
+
+Query  232   ACCRVFTTMEALQEHVQFGIREG  254
+             +C  + + + ++  HV  G R G
+Sbjct  1191  SCTFLCSRLSSITSHVTEGCRGG  1213
+
+
+>tr|D3YYD1|D3YYD1_MOUSE PR domain zinc finger protein 10 OS=Mus 
+musculus OX=10090 GN=Prdm10 PE=1 SV=1
+Length=1135
+
+ Score = 29.3 bits (64),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 10/27 (37%), Positives = 17/27 (63%), Gaps = 0/27 (0%)
+
+Query  228  FRCMACCRVFTTMEALQEHVQFGIREG  254
+            F+C+ C + F   + L +H++F  REG
+Sbjct  471  FKCLQCGKAFREKDKLDQHLRFHGREG  497
+
+
+>tr|A0A1L1STM6|A0A1L1STM6_MOUSE Zinc finger protein 651 (Fragment) 
+OS=Mus musculus OX=10090 GN=Zbtb47 PE=1 SV=1
+Length=627
+
+ Score = 28.9 bits (63),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 19/54 (35%), Positives = 27/54 (50%), Gaps = 8/54 (15%)
+
+Query  225  ENGFRCMACCRVFTTMEALQEH--VQFGIRE-GFSCHV----FHLTMAQLTGNM  271
+            E   +CM C + F  + +L EH  +  G  E  FSC +    FH TMA +  +M
+Sbjct  534  ERNIQCMTCGKAFKKLWSLHEHNKIVHGYAEKKFSCEICEKKFH-TMAHVRKHM  586
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.124    0.355    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3966278530
+
+
+  Database: uniprotkb_proteome_UP000000589_2024_04_17.fasta
+    Posted date:  Apr 17, 2024  5:13 PM
+  Number of letters in database: 23,260,545
+  Number of sequences in database:  54,910
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

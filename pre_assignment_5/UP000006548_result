@@ -1,0 +1,129 @@
+BLASTP 2.15.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_proteome_UP000006548_2024_04_17.fasta
+           39,280 sequences; 16,628,065 total letters
+
+
+
+Query= sp|A1A519|F170A_HUMAN Protein FAM170A OS=Homo sapiens OX=9606
+GN=FAM170A PE=2 SV=1
+
+Length=330
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+tr|A0A1P8BC59|A0A1P8BC59_ARATH Phosphatidylinositol 4-OH kinase b...  30.8    2.0  
+tr|F4JS04|F4JS04_ARATH Zinc finger protein 622 OS=Arabidopsis tha...  30.0    2.4  
+sp|Q8H1G5|REIL1_ARATH Cytoplasmic 60S subunit biogenesis factor R...  30.0    2.5  
+tr|B3H5C0|B3H5C0_ARATH Uncharacterized protein OS=Arabidopsis tha...  27.7    3.5  
+sp|Q9FMJ0|P4KB1_ARATH Phosphatidylinositol 4-kinase beta 1 OS=Ara...  29.6    3.9  
+
+
+>tr|A0A1P8BC59|A0A1P8BC59_ARATH Phosphatidylinositol 4-OH kinase 
+beta1 OS=Arabidopsis thaliana OX=3702 GN=PI-4KBETA1 PE=1 
+SV=1
+Length=900
+
+ Score = 30.8 bits (68),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 31/101 (31%), Positives = 44/101 (44%), Gaps = 20/101 (20%)
+
+Query  184  DSEPSGEEKEHEERTESDSLPGSPT-VEDTPRAKTPDWLVTMENGFRCMACCRVFTTMEA  242
+            DSE  G +K  E+R      PGSP   +DTP  K P       + FR  A       ++A
+Sbjct  508  DSELFGSKKHKEKR------PGSPKQRDDTPSGKPP-LPNNTASQFRKGAYHESLEFVQA  560
+
+Query  243  L------------QEHVQFGIREGFSCHVFHLTMAQLTGNM  271
+            L             E  + G+RE  +   FHL+ A++TG +
+Sbjct  561  LCETSYGLVDIFPIEDRKIGLRESLAEINFHLSEAEITGGI  601
+
+
+>tr|F4JS04|F4JS04_ARATH Zinc finger protein 622 OS=Arabidopsis 
+thaliana OX=3702 GN=REIL1 PE=1 SV=1
+Length=405
+
+ Score = 30.0 bits (66),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 14/48 (29%), Positives = 28/48 (58%), Gaps = 8/48 (17%)
+
+Query  209  VEDTPRAKTPDWLVT-----MENGFRCMAC---CRVFTTMEALQEHVQ  248
+            + D    K P+ L+T     ++  F C+ C   CR F+++EA+++H++
+Sbjct  205  IPDIEYLKDPEGLLTYLGLKVKRDFMCLYCNELCRPFSSLEAVRKHME  252
+
+
+>sp|Q8H1G5|REIL1_ARATH Cytoplasmic 60S subunit biogenesis factor 
+REI1 homolog 1 OS=Arabidopsis thaliana OX=3702 GN=REIL1 PE=1 
+SV=1
+Length=404
+
+ Score = 30.0 bits (66),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 14/48 (29%), Positives = 28/48 (58%), Gaps = 8/48 (17%)
+
+Query  209  VEDTPRAKTPDWLVT-----MENGFRCMAC---CRVFTTMEALQEHVQ  248
+            + D    K P+ L+T     ++  F C+ C   CR F+++EA+++H++
+Sbjct  205  IPDIEYLKDPEGLLTYLGLKVKRDFMCLYCNELCRPFSSLEAVRKHME  252
+
+
+>tr|B3H5C0|B3H5C0_ARATH Uncharacterized protein OS=Arabidopsis 
+thaliana OX=3702 GN=At1g64561 PE=4 SV=1
+Length=82
+
+ Score = 27.7 bits (60),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 17/29 (59%), Gaps = 0/29 (0%)
+
+Query  195  EERTESDSLPGSPTVEDTPRAKTPDWLVT  223
+            ++R +S   P  P+V  T  A TP +L+T
+Sbjct  24   KQRVKSGFFPSQPSVFATAPATTPSYLIT  52
+
+
+>sp|Q9FMJ0|P4KB1_ARATH Phosphatidylinositol 4-kinase beta 1 OS=Arabidopsis 
+thaliana OX=3702 GN=PI4KB1 PE=1 SV=1
+Length=1121
+
+ Score = 29.6 bits (65),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 32/105 (30%), Positives = 45/105 (43%), Gaps = 28/105 (27%)
+
+Query  184  DSEPSGEEKEHEERTESDSLPGSPT-VEDTPRAKTPDWLVTMENG----FRCMACCRVFT  238
+            DSE  G +K  E+R      PGSP   +DTP  K P     + N     FR  A      
+Sbjct  508  DSELFGSKKHKEKR------PGSPKQRDDTPSGKPP-----LPNNTASQFRKGAYHESLE  556
+
+Query  239  TMEAL------------QEHVQFGIREGFSCHVFHLTMAQLTGNM  271
+             ++AL             E  + G+RE  +   FHL+ A++TG +
+Sbjct  557  FVQALCETSYGLVDIFPIEDRKIGLRESLAEINFHLSEAEITGGI  601
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.124    0.355    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2877703140
+
+
+  Database: uniprotkb_proteome_UP000006548_2024_04_17.fasta
+    Posted date:  Apr 17, 2024  5:13 PM
+  Number of letters in database: 16,628,065
+  Number of sequences in database:  39,280
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

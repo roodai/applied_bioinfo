@@ -1,0 +1,80 @@
+BLASTP 2.15.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_proteome_UP000000625_2024_04_17.fasta
+           4,404 sequences; 1,354,487 total letters
+
+
+
+Query= sp|A1A519|F170A_HUMAN Protein FAM170A OS=Homo sapiens OX=9606
+GN=FAM170A PE=2 SV=1
+
+Length=330
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+sp|P0A993|F16PA_ECOLI Fructose-1,6-bisphosphatase class 1 OS=Esch...  26.2    3.7  
+sp|P75952|COMR_ECOLI HTH-type transcriptional repressor ComR OS=E...  24.6    8.3  
+
+
+>sp|P0A993|F16PA_ECOLI Fructose-1,6-bisphosphatase class 1 OS=Escherichia 
+coli (strain K12) OX=83333 GN=fbp PE=1 SV=1
+Length=332
+
+ Score = 26.2 bits (56),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 15/21 (71%), Gaps = 0/21 (0%)
+
+Query  24   GMSKSQEDALQPGSTRVAKGW  44
+            G   ++ED LQPG+ +VA G+
+Sbjct  138  GTPVTEEDFLQPGNKQVAAGY  158
+
+
+>sp|P75952|COMR_ECOLI HTH-type transcriptional repressor ComR 
+OS=Escherichia coli (strain K12) OX=83333 GN=comR PE=1 SV=2
+Length=210
+
+ Score = 24.6 bits (52),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 11/32 (34%), Positives = 16/32 (50%), Gaps = 3/32 (9%)
+
+Query  83   QSPLAQVQERGETPPRSQHVSLSSYSSYKTCV  114
+            Q  L Q Q RGE PP   H  ++  + +  C+
+Sbjct  149  QQFLCQRQARGEIPP---HCDVTHLAEFLNCI  177
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.124    0.355    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 242199546
+
+
+  Database: uniprotkb_proteome_UP000000625_2024_04_17.fasta
+    Posted date:  Apr 17, 2024  5:13 PM
+  Number of letters in database: 1,354,487
+  Number of sequences in database:  4,404
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

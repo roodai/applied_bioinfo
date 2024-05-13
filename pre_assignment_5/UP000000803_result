@@ -1,0 +1,127 @@
+BLASTP 2.15.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprotkb_proteome_UP000000803_2024_04_17.fasta
+           22,049 sequences; 15,004,415 total letters
+
+
+
+Query= sp|A1A519|F170A_HUMAN Protein FAM170A OS=Homo sapiens OX=9606
+GN=FAM170A PE=2 SV=1
+
+Length=330
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+tr|Q29R14|Q29R14_DROME LP01683p OS=Drosophila melanogaster OX=722...  34.3    0.12 
+tr|Q7KV66|Q7KV66_DROME Uncharacterized protein, isoform C OS=Dros...  33.9    0.17 
+tr|Q9VKH3|Q9VKH3_DROME FI23031p1 OS=Drosophila melanogaster OX=72...  30.8    1.7  
+tr|Q9W4J1|Q9W4J1_DROME Pebbled, isoform A OS=Drosophila melanogas...  30.0    2.9  
+sp|P22265|TSH_DROME Protein teashirt OS=Drosophila melanogaster O...  29.3    5.6  
+
+
+>tr|Q29R14|Q29R14_DROME LP01683p OS=Drosophila melanogaster OX=7227 
+GN=anon-WO0140519.93 PE=2 SV=1
+Length=619
+
+ Score = 34.3 bits (77),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 25/92 (27%), Positives = 41/92 (45%), Gaps = 11/92 (12%)
+
+Query  220  WLV-------TMENGFRCMACCRVFTTMEALQEHVQ-FGIREGFSCHVFHLTMA---QLT  268
+            WL+       T E  + C+ C + F     L+ H+Q     + F CH  + T A    L 
+Sbjct  509  WLLQGHLRSHTGEKPYACVHCGKAFADRSNLRAHMQTHSGDKNFKCHRCNKTFALKSYLN  568
+
+Query  269  GNMESESTQDEQEEENGNEKEEEEKPEAKEEE  300
+             ++ES   +D    + G   EEE+   +K++E
+Sbjct  569  KHLESACLRDAGAIDQGKGLEEEDDDCSKQDE  600
+
+
+>tr|Q7KV66|Q7KV66_DROME Uncharacterized protein, isoform C OS=Drosophila 
+melanogaster OX=7227 GN=anon-WO0140519.93 PE=4 SV=1
+Length=474
+
+ Score = 33.9 bits (76),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 25/92 (27%), Positives = 41/92 (45%), Gaps = 11/92 (12%)
+
+Query  220  WLV-------TMENGFRCMACCRVFTTMEALQEHVQ-FGIREGFSCHVFHLTMA---QLT  268
+            WL+       T E  + C+ C + F     L+ H+Q     + F CH  + T A    L 
+Sbjct  364  WLLQGHLRSHTGEKPYACVHCGKAFADRSNLRAHMQTHSGDKNFKCHRCNKTFALKSYLN  423
+
+Query  269  GNMESESTQDEQEEENGNEKEEEEKPEAKEEE  300
+             ++ES   +D    + G   EEE+   +K++E
+Sbjct  424  KHLESACLRDAGAIDQGKGLEEEDDDCSKQDE  455
+
+
+>tr|Q9VKH3|Q9VKH3_DROME FI23031p1 OS=Drosophila melanogaster OX=7227 
+GN=salr PE=2 SV=1
+Length=1267
+
+ Score = 30.8 bits (68),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 20/44 (45%), Gaps = 5/44 (11%)
+
+Query  223  TMENGFRCMACCRVFTTMEALQEH-----VQFGIREGFSCHVFH  261
+            T E  FRC  C R F T   L+ H     ++  +R  F C V H
+Sbjct  604  TGERPFRCKICGRAFATKGNLKAHMSIHKIKPPMRSQFKCPVCH  647
+
+
+>tr|Q9W4J1|Q9W4J1_DROME Pebbled, isoform A OS=Drosophila melanogaster 
+OX=7227 GN=peb PE=4 SV=2
+Length=1894
+
+ Score = 30.0 bits (66),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 16/45 (36%), Positives = 21/45 (47%), Gaps = 2/45 (4%)
+
+Query  228  FRCMACCRVFTTMEALQEHVQFGIRE-GFSCHVFHLTMAQLTGNM  271
+            F C  C +V ++  +L  HV     E  F+C   HLT     GNM
+Sbjct  282  FTCRICSKVLSSASSLDRHVLVHTGERPFNCRYCHLTFTT-NGNM  325
+
+
+>sp|P22265|TSH_DROME Protein teashirt OS=Drosophila melanogaster 
+OX=7227 GN=tsh PE=1 SV=2
+Length=954
+
+ Score = 29.3 bits (64),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 15/21 (71%), Gaps = 0/21 (0%)
+
+Query  228  FRCMACCRVFTTMEALQEHVQ  248
+            FRC+ C + F T+EAL  H++
+Sbjct  354  FRCVWCKQSFPTLEALTTHMK  374
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.124    0.355    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2908235076
+
+
+  Database: uniprotkb_proteome_UP000000803_2024_04_17.fasta
+    Posted date:  Apr 17, 2024  5:13 PM
+  Number of letters in database: 15,004,415
+  Number of sequences in database:  22,049
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
