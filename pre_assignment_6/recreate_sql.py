@@ -1,8 +1,4 @@
 import sqlite3
-import subprocess
-import os
-
-
 # the filename of this SQLite database
 gwascat = "/proj/applied_bioinformatics/users/x_ronod/applied_bioinfo/pre_assignment_6/gwascat.db"
 joins = "/proj/applied_bioinformatics/users/x_ronod/applied_bioinfo/pre_assignment_6/joins.db"
@@ -66,9 +62,6 @@ queries.append('SELECT * FROM studies LEFT OUTER JOIN assocs ON assocs.study_id 
 #'.schema study' does not workr eplaced with "PRAGMA table_info(study)")
 queries.append("PRAGMA table_info(study)")
 
-
-
-
 for q in queries:
   execute_and_print(q)
   print("\n")
@@ -76,13 +69,11 @@ for q in queries:
 c.close()
 conn.close()
 
-
 ter_queries=[]
 ter_queries.append('CREATE TABLE variants(id integer primary key,chrom text,start integer,end integer,strand text,name text);')
 ter_queries.append('SELECT * FROM variants;')
 ter_queries.append('INSERT INTO variants(id, chrom, start, end, strand, name) VALUES(NULL, "16", 48224287, 48224287, "+", "rs17822931");')
 ter_queries.append('SELECT * FROM variants;')
-
 
 db_filename = "variants.db"
 conn = sqlite3.connect(db_filename)
@@ -98,7 +89,6 @@ db_filename = "joins.db"
 conn = sqlite3.connect(db_filename)
 c = conn.cursor()
 
-
 id_queries = []
 id_queries.append('CREATE INDEX snp_idx ON assocs(strongest_risk_snp)')
 id_queries.append('PRAGMA index_list(assocs)')
@@ -106,7 +96,6 @@ id_queries.append('CREATE INDEX study_id_idx ON assocs(study_id);')
 id_queries.append('PRAGMA index_list(assocs)')
 id_queries.append('DROP INDEX snp_idx')
 id_queries.append('PRAGMA index_list(assocs)')
-
 
 for i_q in id_queries:
     execute_and_print(i_q)
