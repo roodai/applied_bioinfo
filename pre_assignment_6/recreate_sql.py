@@ -1,7 +1,7 @@
 import sqlite3
 # the filename of this SQLite database
-gwascat = "/proj/applied_bioinformatics/users/x_ronod/applied_bioinfo/pre_assignment_6/gwascat.db"
-joins = "/proj/applied_bioinformatics/users/x_ronod/applied_bioinfo/pre_assignment_6/joins.db"
+gwascat = "gwascat.db"
+joins = "joins.db"
 
 # initialize database connection
 conn = sqlite3.connect(gwascat)
